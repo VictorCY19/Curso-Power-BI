@@ -41,7 +41,7 @@ Al finalizar esta guía, serás capaz de:
 - Conexión a SQL Server: Usando las credenciales de tu proyecto.
 - Ventaja SQL: Usar Vistas de SQL para importar solo los datos necesarios (Conexión con Módulo 6 de SQL).
 - Ventaja SQL: Ejecutar Procedimientos Almacenados para obtener resultados dinámicos (Conexión con Módulo 6 de SQL).
-- Ejercicio: Conectar Power BI a la base de datos CursoDB de tu proyecto SQL.
+- Ejercicio: Conectar Power BI a la base de datos ProyectoDB de tu proyecto SQL.
 
 ### **Módulo 3: Transformación de Datos con Power Query (El ETL)**
 
