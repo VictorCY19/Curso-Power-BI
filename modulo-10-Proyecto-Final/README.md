@@ -11,7 +11,7 @@ Construir un informe de Power BI robusto y funcional que responda a las pregunta
 ## 🛠️ Estructura del Proyecto Final: Pasos Clave
 Este proyecto se divide en cinco fases que replican un flujo de trabajo profesional de Business Intelligence.
 
-### **Fase 1: Optimización y Extracción de Datos (Módulos 2 y 3)**
+## **Fase 1: Optimización y Extracción de Datos (Módulos 2 y 3)**
 Aquí conectarás Power BI con tu base de datos SQL, asegurando que solo traes la información necesaria y bien limpia.
 
 **Revisión SQL (Vista/SP):** Antes de conectar, revisa tu proyecto de SQL Server. ¿Qué vistas o procedimientos almacenados (Módulo 6 de SQL) ya creaste para generar reportes? Si no tienes uno, crea una Vista SQL optimizada que consolide la información clave de tu hecho principal (Ej: vw_DatosCita con ID, Fecha, Doctor y Monto).
@@ -27,7 +27,7 @@ Aquí conectarás Power BI con tu base de datos SQL, asegurando que solo traes l
 **Eliminar Duplicados:** En tus claves de dimensión (IdPaciente, IdDoctor).
 
 
-### **Fase 2: Modelado de Datos (Módulo 4)**
+## **Fase 2: Modelado de Datos (Módulo 4)**
 El rendimiento de tu informe depende de un modelo de datos limpio y eficiente.
 
 **Diseño Estrella:** Identifica tu Tabla de Hechos Principal (Ej: Citas/Ventas) y tus Tablas de Dimensión (Ej: Paciente, Doctor, Producto).
@@ -39,7 +39,7 @@ El rendimiento de tu informe depende de un modelo de datos limpio y eficiente.
 **Relaciones:** Dibuja las relaciones 1:N entre las claves primarias de tus Dimensiones y las claves foráneas de tus Hechos. Verifica la dirección del filtro.
 
 
-### **Fase 3: Creación de Métricas DAX (Módulos 5 y 6)**
+## **Fase 3: Creación de Métricas DAX (Módulos 5 y 6)**
 Convierte los datos sin procesar en inteligencia de negocio.
 
 **Métricas Base (Módulo 5):** Crea las medidas fundamentales (SUM, COUNTROWS) para Ingresos Totales, Número de Citas/Ventas, etc.
@@ -55,7 +55,7 @@ Convierte los datos sin procesar en inteligencia de negocio.
 **Uso de Variables:** Utiliza variables (VAR) en tu métrica más compleja para demostrar buenas prácticas de código.
 
 
-### **Fase 4: Diseño y Narrativa (Módulos 7 y 8)**
+## **Fase 4: Diseño y Narrativa (Módulos 7 y 8)**
 Transforma los números en una historia visual convincente para el negocio.
 
 **Estructura de Informe:** Diseña un informe de tres páginas con un flujo lógico:
@@ -73,7 +73,7 @@ Transforma los números en una historia visual convincente para el negocio.
 - **Tooltip de Página:** Para mostrar la tendencia de un elemento (Doctor/Producto) al pasar el ratón.
 
 
-### **Fase 5: Implementación de Seguridad (Módulo 9)**
+## **Fase 5: Implementación de Seguridad (Módulo 9)**
 Demuestra que tu informe es apto para un entorno de producción.
 
 **Definición de Roles:** Crea al menos dos Roles RLS (Módulo 9) en Power BI Desktop:
